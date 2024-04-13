@@ -16,7 +16,6 @@ public class BooleanExample {
 		}
 		
 		System.out.println("10>9 is "+ (10>9));//relation operator defines true and false
-		System.out.println("Mukesh testing git ");
 
 	}
 
