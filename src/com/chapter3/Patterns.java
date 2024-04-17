@@ -9,7 +9,7 @@ public class Patterns {
 		System.out.println("Height of pattern");
 		int height = sc.nextInt();
 		int maxStar = (height*2)-1;
-		//System.out.println("maxStar--->"+maxStar);
+		System.out.println("maxStar--->"+maxStar);
 		int max=0;
 		int min=0;
 		for(int i =0;i<maxStar;i++) {
