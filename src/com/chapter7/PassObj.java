@@ -1,4 +1,4 @@
-package com.package7;
+package com.chapter7;
 
 public class PassObj {
 

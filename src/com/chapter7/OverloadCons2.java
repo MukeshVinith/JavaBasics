@@ -1,11 +1,12 @@
-package com.package7;
+package com.chapter7;
 
-public class OverloadCons {
+public class OverloadCons2 {
 
 	public static void main(String[] args) {
 		Box box1 = new Box();
 		Box box2 = new Box(10,20,30);
 		Box mycube = new Box(12);
+		Box myclone = new Box(box2);
 		double vol;
 		
 		vol = box1.volume();
@@ -16,6 +17,10 @@ public class OverloadCons {
 
 		vol = mycube.volume();
 		System.out.println("Volume of mycube :"+vol);
+		
+		vol= myclone.volume();
+		System.out.println("Volume of myclone :"+vol);
+		
 
 
 	}
